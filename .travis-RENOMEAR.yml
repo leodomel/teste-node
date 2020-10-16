@@ -1,0 +1,7 @@
+sudo: required
+services:
+    - docker
+
+script:
+    - docker build -t leodomel/node-teste .
+    - docker images leodomel/node-teste
